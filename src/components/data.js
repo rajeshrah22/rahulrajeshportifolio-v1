@@ -17,7 +17,7 @@ export const projectData = [
 		id: 3,
 		title: 'banking-app-databse-app',
 		description:
-			'This Spring Boot REST API manages user data and login credentials, providing CRUD endpoints for user data and login operations. Information is stored in MySQL tables. Part of full stack Web banking app at',
+			'This Spring Boot REST API manages user data and login credentials, providing CRUD endpoints for user data and login operations. Information is stored in MySQL tables',
 		gitHubLink: 'https://github.com/rajeshrah22/banking-app-databse-app',
 	}
 ];

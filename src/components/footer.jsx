@@ -4,9 +4,13 @@ const Footer = () => {
             <hr />
             <div className="footer-container">
               {/**TODO:  */}
-                <p>
-                    &copy; {new Date().getFullYear()} Joel's Portfolio
-                </p>
+                <a
+                href="https://github.com/olawanlejoel/Kinsta-developer-portfolio"
+                aria-label="GitHub"
+                target="_blank"
+                rel="noopener noreferrer">
+                    Designed by Joel Olawanle
+                </a>
                 <div className="social_icons">
                     <a
                         href="https://github.com/rajeshrah22"

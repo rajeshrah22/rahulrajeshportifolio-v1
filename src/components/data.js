@@ -1,37 +1,23 @@
 export const projectData = [
 	{
 		id: 1,
-		title: 'Todo List App',
+		title: 'UniPath.io',
 		description:
-			'A simple Todo List App built with JavaScript. All datas are stored in localstorage. It helps users check list out their plans and tick as they do them.',
-		gitHubLink: 'https://github.com/olawanlejoel/Todo-List-App',
+			'A University class schedule management Web Application for university students. Create, plan, and share class schedules for an entire degree program.',
+		gitHubLink: 'https://github.com/UMLCloudComputing/UniPath.io',
 	},
 	{
 		id: 2,
-		title: 'Books Library App',
+		title: 'BusApp',
 		description:
-			'A simple Book Library App built with JavaScript. It helps readers have a good list of books they are eiter currently reading or have finished reading.',
-		gitHubLink: 'https://github.com/olawanlejoel/Book-Library',
+			'Uses the nextBus xml feed to get bus agency/routes data to display real time bus information with Google Maps API',
+		gitHubLink: 'https://github.com/rajeshrah22/BusApp',
 	},
 	{
 		id: 3,
-		title: 'Quotes Generator',
+		title: 'banking-app-databse-app',
 		description:
-			'Helps you generates quotes from about 1600 quotes written by different authors . Quotes are automatically copied to your clipboards.',
-		gitHubLink: 'https://github.com/olawanlejoel/random-quote-generator',
-	},
-	{
-		id: 4,
-		title: 'Password Generator',
-		description:
-			'Helps you generates random passwords, you can select what you want your password to entail and also you can copy generated password to clipboard.',
-		gitHubLink: 'https://github.com/olawanlejoel/Password-Generator',
-	},
-	{
-		id: 5,
-		title: 'Twitter UI Clone',
-		description:
-			'Simple Twitter UI clone built with TailwindCSS and Vue Js. This covers only the home page of Twitter UI. This is cool to get started with TailwindCSS as it helps understand basic concepts.',
-		gitHubLink: 'https://github.com/olawanlejoel/TwitterUI-clone',
-	},
+			'This Spring Boot REST API manages user data and login credentials, providing CRUD endpoints for user data and login operations. Information is stored in MySQL tables. Part of full stack Web banking app at',
+		gitHubLink: 'https://github.com/rajeshrah22/banking-app-databse-app',
+	}
 ];

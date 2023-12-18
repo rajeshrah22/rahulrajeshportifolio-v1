@@ -9,7 +9,7 @@ const Footer = () => {
                 aria-label="GitHub"
                 target="_blank"
                 rel="noopener noreferrer">
-                    Designed by Joel Olawanle
+                    Designed by Joel Olawanle. Remixed by Rahul Rajesh.
                 </a>
                 <div className="social_icons">
                     <a

@@ -89,7 +89,7 @@ hr {
   background-color: #1D1E20;
 }
 
-.footer-container a {
+.footer-container a{
   font-size: 0.8rem;
   color: #9B9C9D;
   transition: all 0.5s ease-in-out;
@@ -97,6 +97,7 @@ hr {
 
 .footer-container a:hover {
   color: #DADADB;
+  text-decoration: underline;
 }
 
 .footer-container .social_icons {
@@ -139,6 +140,31 @@ hr {
   text-align: center;
   margin: 1rem 0;
   width: 80%;
+}
+
+.typed-out {
+  width: 0;
+  overflow: hidden;
+  border-right: .1em solid #FFCC17;
+  height: 3rem;
+  white-space: nowrap;
+  animation:
+    typing 1.5s steps(30, end) forwards,
+    blink 1.5s infinite;
+}
+
+.typed-out-container {
+  display: inline-block;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  from { border-color: transparent }
+  to { border-color: orange; }
 }
 
 @media screen and (max-width: 768px) {

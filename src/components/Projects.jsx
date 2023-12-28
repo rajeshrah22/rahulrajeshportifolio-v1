@@ -10,6 +10,9 @@ const Projects = () => {
                         <div className="project-header">
                             <i className="fa-regular fa-folder-open folder-icon"></i>
                             <div className="small-icons">
+                                {
+                                    project.demoLink !== undefined? <a href={project.demoLink}>Demo</a> : <></>
+                                }
                                 <a href={project.gitHubLink}><i className="fa-brands fa-github"></i></a>
                             </div>
                         </div>

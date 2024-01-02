@@ -5,7 +5,7 @@ export const projectData = [
 		description:
 			'Uses the nextBus xml feed to get bus agency/routes data to display real time bus information with Google Maps API',
 		gitHubLink: 'https://github.com/rajeshrah22/BusApp',
-    demoLink: undefined
+    demoLink: 'http://3.80.204.166/BusApp/'
 	},
 	{
 		id: 2,
